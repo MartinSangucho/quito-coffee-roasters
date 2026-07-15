@@ -40,7 +40,7 @@ const COFFEE_PRODUCTS = [
     region: 'Huila',
     notes: 'Naranja, chocolate negro, azúcar morena',
     price: 13.00,
-    image: 'https://images.unsplash.com/photo-1696071575709-d25c52f820e0?w=400&h=300&fit=crop&auto=format&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF_YqFJZcMbemW6HJQb3D61mMVR1FJKT-L7LbfPjxBlJOo4EDf8OfC2PM&s=10',
     process: 'Lavado'
   },
   {
@@ -90,7 +90,7 @@ const COFFEE_PRODUCTS = [
     region: 'Guji',
     notes: 'Durazno, mango, vainilla, complejo',
     price: 17.50,
-    image: 'https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=400&h=300&fit=crop&auto=format&q=80',
+    image: 'https://m.media-amazon.com/images/I/81DLJc5I5XL._SL1280_.jpg',
     process: 'Natural'
   },
   {
