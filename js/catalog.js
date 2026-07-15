@@ -90,7 +90,7 @@ const COFFEE_PRODUCTS = [
     region: 'Guji',
     notes: 'Durazno, mango, vainilla, complejo',
     price: 17.50,
-    image: 'https://images.unsplash.com/photo-15883173030970-80c7e3d0d8fc?w=400&h=300&fit=crop&auto=format&q=80',
+    image: 'https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=400&h=300&fit=crop&auto=format&q=80',
     process: 'Natural'
   },
   {
