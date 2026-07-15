@@ -40,7 +40,7 @@ const COFFEE_PRODUCTS = [
     region: 'Huila',
     notes: 'Naranja, chocolate negro, azúcar morena',
     price: 13.00,
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF_YqFJZcMbemW6HJQb3D61mMVR1FJKT-L7LbfPjxBlJOo4EDf8OfC2PM&s=10',
+    image: 'https://icup.vn/wp-content/uploads/2026/03/Ca-phe-Colombia-Huila-Supremo-no-kha-lon-sau-khi-rang-500x500.webp',
     process: 'Lavado'
   },
   {
