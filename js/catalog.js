@@ -10,7 +10,7 @@ const COFFEE_PRODUCTS = [
     region: 'Pichincha',
     notes: 'Chocolate amargo, caramelo, notas frutales',
     price: 14.50,
-    emoji: '\u2615',
+    image: 'https://images.unsplash.com/photo-1513530176992-0cf39c4cbed4?w=400&h=300&fit=crop&auto=format&q=80',
     process: 'Lavado'
   },
   {
@@ -20,7 +20,7 @@ const COFFEE_PRODUCTS = [
     region: 'Loja',
     notes: 'Miel, avellana, cítricos suaves',
     price: 16.00,
-    emoji: '\u{1F331}',
+    image: 'https://images.unsplash.com/photo-1587049016823-69ef9d68bd44?w=400&h=300&fit=crop&auto=format&q=80',
     process: 'Natural'
   },
   {
@@ -30,7 +30,7 @@ const COFFEE_PRODUCTS = [
     region: 'Galápagos',
     notes: 'Frutas tropicales, panela, cuerpo sedoso',
     price: 22.00,
-    emoji: '\u{1F3DD}\uFE0F',
+    image: 'https://images.unsplash.com/photo-1690983326555-8b8e27843a32?w=400&h=300&fit=crop&auto=format&q=80',
     process: 'Lavado'
   },
   {
@@ -40,7 +40,7 @@ const COFFEE_PRODUCTS = [
     region: 'Huila',
     notes: 'Naranja, chocolate negro, azúcar morena',
     price: 13.00,
-    emoji: '\u{1F34A}',
+    image: 'https://images.unsplash.com/photo-1696071575709-d25c52f820e0?w=400&h=300&fit=crop&auto=format&q=80',
     process: 'Lavado'
   },
   {
@@ -50,7 +50,7 @@ const COFFEE_PRODUCTS = [
     region: 'Nariño',
     notes: 'Grosella, miel de caña, cacao',
     price: 14.00,
-    emoji: '\u{1F36B}',
+    image: 'https://images.unsplash.com/photo-1633627349150-cc2b433ddba1?w=400&h=300&fit=crop&auto=format&q=80',
     process: 'Honey'
   },
   {
@@ -60,7 +60,7 @@ const COFFEE_PRODUCTS = [
     region: 'Minas Gerais',
     notes: 'Chocolate con leche, nuez, bajo acidez',
     price: 11.50,
-    emoji: '\u{1F33E}',
+    image: 'https://images.unsplash.com/photo-1675306408031-a9aad9f23308?w=400&h=300&fit=crop&auto=format&q=80',
     process: 'Natural'
   },
   {
@@ -70,7 +70,7 @@ const COFFEE_PRODUCTS = [
     region: 'São Paulo',
     notes: 'Cacahuete, caramelo, cuerpo aterciopelado',
     price: 12.00,
-    emoji: '\u{1F95E}',
+    image: 'https://images.unsplash.com/photo-1511920170033-f8396924c348?w=400&h=300&fit=crop&auto=format&q=80',
     process: 'Pulped Natural'
   },
   {
@@ -80,7 +80,7 @@ const COFFEE_PRODUCTS = [
     region: 'Yirgacheffe',
     notes: 'Jazmín, bergamota, limón, floral',
     price: 18.00,
-    emoji: '\u{1F33A}',
+    image: 'https://images.unsplash.com/photo-1610632380989-680fe40816c6?w=400&h=300&fit=crop&auto=format&q=80',
     process: 'Lavado'
   },
   {
@@ -90,7 +90,7 @@ const COFFEE_PRODUCTS = [
     region: 'Guji',
     notes: 'Durazno, mango, vainilla, complejo',
     price: 17.50,
-    emoji: '\u{1F351}',
+    image: 'https://images.unsplash.com/photo-15883173030970-80c7e3d0d8fc?w=400&h=300&fit=crop&auto=format&q=80',
     process: 'Natural'
   },
   {
@@ -100,7 +100,7 @@ const COFFEE_PRODUCTS = [
     region: 'Pichincha & Loja',
     notes: 'Blend equilibrado: chocolate, frutas secas, miel',
     price: 13.50,
-    emoji: '\u{1F31F}',
+    image: 'https://images.unsplash.com/photo-1587734195503-904fca47e0e9?w=400&h=300&fit=crop&auto=format&q=80',
     process: 'Mixto'
   }
 ];
@@ -179,8 +179,8 @@ export const renderCatalog = (container, onAddToCart) => {
       style="animation-delay: ${index * 0.08}s"
       aria-label="${product.name} de ${product.origin}"
     >
-      <div class="product-card__image" aria-hidden="true">
-        <span>${product.emoji}</span>
+      <div class="product-card__image">
+        <img src="${product.image}" alt="${product.name} - Café de ${product.origin}" loading="lazy">
       </div>
       <div class="product-card__body">
         <span class="product-card__origin">${product.origin} · ${product.region}</span>

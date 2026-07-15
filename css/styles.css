@@ -485,11 +485,19 @@ input, select, textarea {
 
 .product-card__image {
   height: 180px;
+  overflow: hidden;
   background: linear-gradient(135deg, var(--color-medium-roast), var(--color-light-roast));
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 4rem;
+}
+
+.product-card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-slow);
+}
+
+.product-card:hover .product-card__image img {
+  transform: scale(1.08);
 }
 
 .product-card__body {
@@ -603,8 +611,11 @@ input, select, textarea {
   animation: fadeInUp 0.3s ease-out;
 }
 
-.cart-item__emoji {
-  font-size: 2.5rem;
+.cart-item__image {
+  width: 60px;
+  height: 60px;
+  border-radius: var(--radius-md);
+  object-fit: cover;
   flex-shrink: 0;
 }
 

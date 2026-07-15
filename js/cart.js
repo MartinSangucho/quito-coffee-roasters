@@ -109,7 +109,7 @@ export const renderCart = () => {
     emptyMsg.hidden = true;
     listContainer.innerHTML = cartItems.map((item) => `
       <div class="cart-item" role="listitem" aria-label="${item.name}, cantidad ${item.qty}">
-        <span class="cart-item__emoji" aria-hidden="true">${item.emoji}</span>
+        <img class="cart-item__image" src="${item.image}" alt="${item.name}" loading="lazy">
         <div class="cart-item__info">
           <p class="cart-item__name">${item.name}</p>
           <p class="cart-item__origin">${item.origin}</p>
