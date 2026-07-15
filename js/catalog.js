@@ -40,7 +40,7 @@ const COFFEE_PRODUCTS = [
     region: 'Huila',
     notes: 'Naranja, chocolate negro, azúcar morena',
     price: 13.00,
-    image: 'https://www.civitatis.com/blog/wp-content/uploads/2021/11/cafe-granos.jpg',
+    image: 'https://sensorial.coffee/wp-content/uploads/2023/08/2.png',
     process: 'Lavado'
   },
   {
