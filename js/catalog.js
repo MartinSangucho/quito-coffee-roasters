@@ -40,7 +40,7 @@ const COFFEE_PRODUCTS = [
     region: 'Huila',
     notes: 'Naranja, chocolate negro, azúcar morena',
     price: 13.00,
-    image: 'https://sensorial.coffee/wp-content/uploads/2023/08/2.png',
+    image: 'https://images.unsplash.com/photo-1611564494260-6f21b80af7ea?w=400&h=300&fit=crop&auto=format&q=80',
     process: 'Lavado'
   },
   {
