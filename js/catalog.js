@@ -40,7 +40,7 @@ const COFFEE_PRODUCTS = [
     region: 'Huila',
     notes: 'Naranja, chocolate negro, azúcar morena',
     price: 13.00,
-    image: 'https://static.vecteezy.com/system/resources/thumbnails/028/636/441/small/roasted-coffee-beans-on-brown-blurred-background-with-bokeh-effect-generative-ai-photo.jpg',
+    image: 'https://www.civitatis.com/blog/wp-content/uploads/2021/11/cafe-granos.jpg',
     process: 'Lavado'
   },
   {
