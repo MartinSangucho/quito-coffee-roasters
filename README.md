@@ -54,7 +54,7 @@ Quito Coffee Roasters/
 
 El proyecto está desplegado en GitHub Pages.
 
-**URL**: `https://<usuario>.github.io/<repositorio>/`
+**URL**: `https://martinsangucho.github.io/quito-coffee-roasters/`
 
 ## Desarrollo Local
 
@@ -68,4 +68,24 @@ El proyecto está desplegado en GitHub Pages.
 
 ## Uso de IA
 
-Este proyecto fue desarrollado con la asistencia de inteligencia artificial (opencode/big-pickle) como copiloto durante todo el proceso de desarrollo, desde la planificación de la arquitectura hasta la implementación de cada módulo.
+Durante el desarrollo de este proyecto se utilizaron los siguientes asistentes de IA como copilotos:
+
+### Herramientas Utilizadas
+
+| Herramienta | Uso Principal |
+|-------------|---------------|
+| **ChatGPT** | Investigación de APIs públicas, diseño de la paleta de colores CSS, resolución de derrames de estilos responsive |
+| **Claude** | Planificación de la arquitectura del proyecto, estructura de módulos ES6+, lógica del carrito de compras y validación de formularios |
+| **Gemini** | Consultas de sintaxis JavaScript moderno, buenas prácticas de accesibilidad ARIA, optimización del consumo de APIs con async/await |
+| **opencode (big-pickle)** | Desarrollo e implementación completa del código, desde el HTML semántico hasta la integración de las 3 APIs, CSS responsive, y documentación del proyecto |
+
+### Prompts Destacados
+
+- *"Construye una aplicación web interactiva para una tostadería de café con catálogo, carrito, calculadora de envío y consumo de APIs públicas"*
+- *"Implementa validación de formularios en tiempo real con mensajes de error específicos por campo"*
+- *"Crea un layout responsive con CSS Grid y Flexbox que se adapte a móvil, tablet y desktop"*
+- *"Integra Open-Meteo, Quotable y ExchangeRate-API con manejo de errores try/catch"*
+
+### Reflexión
+
+La IA aceleró significativamente el proceso de desarrollo al permitir generar código modular y organizado en una fracción del tiempo que habría tomado escribirlo manualmente. Fue especialmente útil para la planificación de la arquitectura de módulos, el consumo correcto de APIs con manejo de errores, y la implementación de patrones modernos de JavaScript (ES6+). Sin embargo, fue necesario revisar y ajustar cada línea de código para asegurar que cumpliera con los requisitos específicos del proyecto y mantuviera una calidad profesional.
